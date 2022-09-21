@@ -1,70 +1,107 @@
-
-.container{
-  color:white;
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3em;
+}
+.fechaYLugar {
+  color: white;
   background: rgb(161, 157, 157);
   padding: 25px;
   width: 1160px;
-  margin-left: 5%;
-  margin-right: 5%;
-  
+  /*   margin-left: 5%;
+  margin-right: 5%; Cambie a Margen Automatico para */
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1{
+h1 {
   color: rosybrown;
   font-size: 80px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 5px;
-    
 }
-h2{
+h2 {
   color: gray;
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 5px;
-    
 }
-img{
+.titulos {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.containerImg {
+
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+img {
+
   height: 500px;
   width: 800px;
   margin-top: 5px;
   margin-bottom: 15px;
-  margin-left: 21%;
-  margin-right: 10%;
+  /*  margin-left: 21%;
+  margin-right: 10%; */
 
 }
-.parrafo1{
-  color:royalblue;
+.containerParrafos{
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.small {
+  color: rgb(58, 88, 177);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: medium;
+  /* margin-left: 80%; */
+  float: right;
+}
+.parrafo {
+  color: royalblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   text-align: justify;
   line-height: 1cm;
   margin-left: 5%;
   margin-right: 5%;
- 
 }
-.container2{
-  margin-right: 3%;
-  margin-left: 5%;
-  
+.container2 {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
 }
-pre{
+.pre {
   color: chocolate;
   text-align: left;
   font-size: 18px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 0,8cm;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 0, 8cm;
+  float: left;
+  max-width: 20%; /* con esto evitas agregar el salto de linea, se adapta al ancho */
 
+  /* asi se hace lo que seria .linea v. */
+  padding: 2rem; /* lo agrego para dar mas espaciado  */
+  border-right: 1px solid black; /* asi se pone la linea  */
+  margin-right: 2rem; /* con esto la separo del texto */
 }
-.linea-v{
+/* .linea-v{
   border-left:thick solid rgb(187, 93, 93) ;
   height: 28%;
   left: 23%;
   position: absolute;
   
-}
-.parrafo2{
+} */
+/* .parrafo2{
   color:royalblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
@@ -90,25 +127,21 @@ pre{
   line-height: 1cm;
   margin-left: 5%;
   margin-right: 5%;
-}
-small{
-  color: rgb(58, 88, 177);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
-  font-style: italic;
-  font-size: medium;
-  margin-left: 80%;
-}
-hr{
-  background-color:rgb(204, 104, 58);
+} */
+
+hr {
+  background-color: rgb(204, 104, 58);
   width: 30%;
   height: 2px;
   margin-top: 40px;
-
-
 }
-footer{
+.footer {
   color: chocolate;
   text-align: center;
   font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer{
+  text-align: center;
 }

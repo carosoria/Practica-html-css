@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,64 @@
     <title>practica de programacion</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container"><span style="float: right"> MENDOZA </span> 22 DE AGOSTO DE 2022 </div>
-    <h1>H1 TITULO</h1>
-    <h2>Subtitulo del articulo h4/h5</h2>
-    <img src="imagen.jpg" alt="gente en una biblioteca">
+    <div class="container">
+        <!-- El contenedor debe abarcar todo el bloque, en este caso el container te va a dar como lo margenes de lo que quieras escribir. -->
+        <div class="fechaYLugar">
+            <!-- le agrego este div para que sea otro bloque diferente y que cumpla con las reglas qeu le pusiste a container ya que ahora el container lo usaremos de enmarcador. -->
+            <span style="float: right"> MENDOZA </span><span style="float: left;"> 22 DE AGOSTO DE 2022 </span>
+            <!-- perfecto la etiqueta span lo unico que hay que ponerle a las dos para que sean independientes. -->
+        </div>
+        <div class="titulos">
+            <!-- Agrego esto para hacer otro bloque mas. tiene como la fucnion de "row"que vimos en bootstrap. -->
+            <h1>H1 TITULO</h1>
+            <h2>Subtitulo del articulo h4/h5</h2>
+        </div>
+        <div class="containerImg">
+            <img src="imagen.jpg" alt="gente en una biblioteca">
+        </div>
+        <div class="containerParrafos">
+            <p class="parrafo">
+                <!-- eliminé la numeracion. La clase la podes volver a reutilizar la cantidad de veces que quieras y darle el mismo formato. -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur eveniet harum iusto
+                iure consequatur sunt voluptas inventore nemo explicabo neque, hic tempore consectetur at nihil
+                delectus, alias
+                minima maxime!
+            </p><!-- modifique la etiqueta div por p que es la correcta para hacer un parrafo -->
+
+            <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis mollitia hic at
+                perspiciatis id
+                repellendus sint nobis, dolorum, voluptas eius voluptatum. Molestiae expedita atque iure, officia unde
+                vitae ab
+                nesciunt!</div>
+            <div class="pre">
+                <!-- perfecto, pero la etiqueta pre es para texto que está prefotmateado como una linea de codigo o algo asi. Lo cambio por un DIV -->
+                <span class="span">
+                    <!-- Etiqueta span tiene que envolver todo y ese estilo se lo agregu a "pre". La comenteo porque seria una redundancia -->
+                    Alguna frase para resaltar del texto. Donde el autor quiera dejar algo importante por decir
+                </span>
+            </div>
+            <div class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores exercitationem
+                doloremque, eum deleniti, ab quaerat accusantium nam mollitia facilis aliquid fuga veniam officiis
+                accusamus. Animi, quaerat! Vel odit optio quibusdam.</div>
+
+            <div class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit a mollitia
+                dolore, eveniet aliquam voluptatum quibusdam itaque cum numquam, ut, ratione nemo. Sapiente quibusdam
+                reiciendis sint odio. Numquam, architecto amet.
+            </div>
+        </div>
+        <div class="container2">
+
+            <small class="small">Escrito por:Carolina</small>
+
+        </div>
+        <hr>
+        <div class="footer"> 
+            <p>COMENTARIOS</p>
+        </div>
+        <footer>todos los derechos reservados para Carolina Soria.</footer><!-- el fotter tiene esta funcionalidad, igual esta perfecto lo que hiciste arriba.  -->
     </div>
-    <div class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur eveniet harum iusto iure consequatur sunt voluptas inventore nemo explicabo neque, hic tempore consectetur at nihil delectus, alias minima maxime!</div>
-    <div class="container2"; style="float: left">
-      
-      <pre><span style="float: right;"> Alguna frase para</span>
-          resaltar del texto.
-          Donde el autor 
-          quiera dejar algo
-          importante por
-          decir</pre>
-    
-    </div>
-                                                  
-    
-    
-    <div class="linea-v"></div>
-    
-    <div class="parrafo2">ipsum, dolor sit amet consectetur adipisicing elit. Debitis mollitia hic at perspiciatis id repellendus sint nobis, dolorum, voluptas eius voluptatum. Molestiae expedita atque iure, officia unde vitae ab nesciunt!</div>
-    
-    <div class="parrafo3">ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dicta facilis vero hic repellat incidunt omnis cum repellendus harum. Assumenda deleniti, porro velit ipsum consequuntur deserunt ratione. Assumenda, dolorum? Assumenda!</div>
-    
-    <div class="parrafo4">dolor sit amet consectetur adipisicing elit. Iusto modi suscipit dicta dolore officiis, doloribus ipsam? Vero nisi veniam sunt nostrum placeat, iure explicabo tempore nam deserunt est harum odit.</div>
-    
-    <small>Escrito por:Carolina</small>
-    <hr>
-    <footer>
-       <p>COMENTARIOS</p>
-    </footer>
 </body>
+
 </html>

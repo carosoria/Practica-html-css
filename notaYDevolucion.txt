@@ -1,0 +1,10 @@
+Caro, 
+
+Está perfecto tu trabajo. Muy bien que leiste la documentación. 
+Te he cambiado el formato y dejado comentado el archivo para que veas las diferencias. 
+Te recomiendo que practiques un poco más jugando con hacer cosas en HTML y CSS porque los conceptos los tener perfecto pero falta un poco más de lograr lo que querés. 
+Otra cosa importante es tener "cabeza de programador" vi que usas mucho el estilo en las etiquetas generales y no como clases. A los fines practicos pensá que tal vez en un proyecto grande hay muchas imagenes. Si usas dirigis el formato a la etiqueta img van a tener todos el mismo formato. 
+
+Te recomiendo que hagas la (PLUS) de la tarea de bootstrap (pasar el blog que hicimos a Bootstrap) para que veas las diferencias.
+
+Nota Subjetiva: 7.  
